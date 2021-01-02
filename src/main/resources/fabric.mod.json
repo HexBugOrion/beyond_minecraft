@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "Minecraft Beyond",
+  "description": "The biggest project of them all, Beyond MC aims to be a mish-mash of features to both teach myself java, as well as supply features for a future Minecraft server!",
+  "authors": [
+    "OrionHexDev"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "GNU GPL3",
+  "icon": "assets/mc_beyond/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.oriondev.beyond.MCBeyond"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
