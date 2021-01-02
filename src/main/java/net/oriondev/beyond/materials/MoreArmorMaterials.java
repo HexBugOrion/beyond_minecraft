@@ -13,7 +13,7 @@ import net.oriondev.beyond.MCBeyond;
 import java.util.function.Supplier;
 
 public enum MoreArmorMaterials implements ArmorMaterial {
-    GILDED_IRON("gilded_iron", 12, new int[]{2, 5, 6, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F, () -> {
+    COPPER("copper", 12, new int[]{2, 5, 6, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F, () -> {
         return Ingredient.ofItems(MCBeyond.COPPER_INGOT);
     }),
     STEEL("steel", 17, new int[]{2, 5, 6, 2}, 7, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.5F, () -> {
