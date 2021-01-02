@@ -9,7 +9,7 @@ import net.oriondev.beyond.MCBeyond;
 import java.util.function.Supplier;
 
 public enum  MoreToolMaterials implements ToolMaterial {
-    GILDED_IRON(2, 210, 6.0F, 2.0F, 22, () -> {
+    COPPER(2, 210, 6.0F, 2.0F, 22, () -> {
         return Ingredient.ofItems(MCBeyond.COPPER_INGOT);
     }),
     STEEL(3, 300, 6.0F, 2.5F, 8, () -> {
